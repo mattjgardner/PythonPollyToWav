@@ -20,7 +20,7 @@ def PollySpeechCreation(TextsToBeSynthesised, Directory):
             aws_secret_access_key="",
             region_name='eu-west-2').client('polly')
 
-        response = polly_client.synthesize_speech(VoiceId='Matthew',
+        response = polly_client.synthesize_speech(VoiceId='Joanna',
                 OutputFormat='pcm',
                 Engine='neural',
                 Text = text)
